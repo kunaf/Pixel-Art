@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    background-color: lightgrey;
 }
 
 h1 {
@@ -30,6 +31,7 @@ h1 {
 
 h2 {
     margin: 1em 0 0.25em;
+    color: blue;
 }
 
 h2:first-of-type {
@@ -45,6 +47,7 @@ td {
 table {
     border-collapse: collapse;
     margin: 0 auto;
+    borde
 }
 
 tr {
