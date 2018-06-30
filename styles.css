@@ -6,6 +6,26 @@ h1 {
     font-family: Monoton;
     font-size: 70px;
     margin: 0.2em;
+    color: red;
+  /*animation of h1 heading*/
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;;
+    animation-direction: alternate;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {color: red;}
+    to {color: blue;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {color: red;}
+    to {color: blue;}
 }
 
 h2 {
